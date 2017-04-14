@@ -1,0 +1,20 @@
+body {
+	background-image: url("images/headshot2.png");
+	background-size: cover;
+	background-height: 200px;
+    font-family: Open Sans;
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+
+
+p.italic {
+    font-style: italic;
+}
+
+h1 {
+	color: ffe723;
+	font-size: 50px;
+	text-decoration: blink;
+}
