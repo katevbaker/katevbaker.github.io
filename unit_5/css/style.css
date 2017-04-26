@@ -1,33 +1,72 @@
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Josefin+Sans|Mystery+Quest|Open+Sans');
 
-body {
-	background-image: url("images/headshot2.png");
-	background-size: cover;
-	background-height: 200px;
-	font-family: 'Open Sans'; sans-serif;
-    text-align: center;
-    color: white;
-    padding-top: 180px;
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: #4A4A4A;
+    padding: 0;
+    margin: 0;
+}
 
-p.italic {
-    font-style: italic;
+header {
+	background-image: url("images/headshot2.png");
+	background-height: 200px;
+	height: 300px;
+	padding: 20px;	
+	border: 1px black solid;
+	background-color: #FFED74;
+	text-align: center;
+}
+
+p.white {
+    color: #ffffff;
 }
 
 h1 {
-	color: ffe723;
+	color: #ffe723;
 	font-size: 50px;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 h3 {
-	color: ffe723;
+	color: #4A4A4A;
 	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 }
 
 p {	
-	font-family: 'Open Sans'; sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	}
+
+nav {
+	background-color: #E8C66A;
+	padding: 20px;	
+	border: 1px black solid;
+}
+
+article {
+	background-color: #E89C6C;
+	padding: 20px;	
+	border: 1px black solid;
+}
+
+footer {
+	background-color: #FF957E;
+	padding: 20px;	
+	border: 1px black solid;
+}
+
+section {
+	background-color: #FFE2B8;
+	padding: 20px;	
+	border: 1px black solid;
+}
+
+
+
